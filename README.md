@@ -56,7 +56,7 @@ New tenants have **Security Defaults** enabled, which requires every user to reg
 The subscription had never registered `Microsoft.Network`. Registering a provider is a **subscription-level** action, and Alex's Contributor role only applies to the resource group, so the portal's automatic registration failed under his account. I registered `Microsoft.Network`, `Microsoft.Storage`, and `Microsoft.Compute` as the subscription Owner, waited for the status to show *Registered*, and Alex's deployment then succeeded. This confirmed that his access really did stop at the resource group boundary.
 
 **3. CLI user creation failed with an invalid domain.**
-I'd left a placeholder domain in the command. A user principal name must use one of the tenant's verified domains (here, `<tenant>.onmicrosoft.com`).
+I'd left the wrong domain in the command. A user principal name must use one of the tenant's verified domains (here, `<tenant>.onmicrosoft.com`).
 
 ## What I learned
 
