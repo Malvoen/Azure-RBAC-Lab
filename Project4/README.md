@@ -57,16 +57,7 @@ az storage account show -n $SA -g $RG --query "primaryEndpoints.web" -o tsv
 
 ## Problems I hit and how I fixed them
 
-**1. Bash waiting with a `>` prompt.**
-I left a closing quote off `SA="stnatelab$RANDOM`, so Bash waited for more input. **Fix:** Ctrl+C, then re-entered the line with both quotes.
-
-**2. "The following arguments are required: --location/-l".**
-I typed `-1` (the number one) instead of `-l` (lowercase L). They look nearly identical in the Cloud Shell font. **Fix:** used the long option names (`--name`, `--location`), which are easier to read and harder to mistype.
-
-**3. "ResourceGroupNotFound" when creating the storage account.**
-This was a side effect of problem 2: the resource group was never created. **Lesson:** read the *first* error in a chain; later errors are often just consequences.
-
-**4. `$web` in Bash.**
+**1. `$web` in Bash.**
 The container name must be in single quotes (`'$web'`). Otherwise Bash treats `$web` as an empty variable.
 
 ## Key concepts
