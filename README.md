@@ -4,7 +4,7 @@ A hands-on lab simulating a small company where an **Ops team** can build resour
 
 ## Labs in this repo
 - **Lab 1: Group-based RBAC** (this page)
-- **[Lab 2: Conditional Access MFA + Privileged Identity Management](project-2/)**
+- **[Lab 2: Conditional Access MFA + Privileged Identity Management](project2/)**
 
 ## What I built
 
