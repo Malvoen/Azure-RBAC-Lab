@@ -2,7 +2,7 @@
 
 Part of my Azure lab series: [Lab 1: RBAC](../) · [Lab 2: Conditional Access + PIM](../Project2/) · [Lab 3: SAML SSO](../Project3/)
 
-**Live site:** https://YOUR-ENDPOINT-HERE.web.core.windows.net/ <!-- replace with your Primary endpoint -->
+**Live site:** (https://stnatelab15658.z5.web.core.windows.net/)
 
 A public website hosted directly from Azure Storage. There's no VM or web server to manage, and it costs pennies a month. Everything was built with the **Azure CLI** in Cloud Shell, plus the portal for one setting.
 
