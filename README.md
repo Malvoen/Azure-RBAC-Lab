@@ -6,6 +6,7 @@ A hands-on lab simulating a small company where an **Ops team** can build resour
 - **Lab 1: Group-based RBAC** (this page)
 - **[Lab 2: Conditional Access MFA + Privileged Identity Management](Project2/)**
 - **[Lab 3: SAML Single Sign-On](Project3/)**
+- **[Lab 4: Static Website on Azure Storage](Project4/)**
 
 ## What I built
 
