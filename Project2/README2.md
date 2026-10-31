@@ -46,9 +46,9 @@ The same policy produced three different results for three users. Each result ha
 | Jordan (Auditor) | Not in target group | ✅ Does not apply |
 | breakglass1 | Explicitly excluded | ✅ Does not apply |
 
-![What If: policy applies to Alex](screenshots/01-whatif-alex-applies.png)
-![What If: policy does not apply to Jordan](screenshots/02-whatif-jordan-not-applied.png)
-![What If: break-glass account excluded](screenshots/03-whatif-breakglass-excluded.png)
+![What If: policy applies to Alex](Screenshots/01-whatif-alex-applies.png)
+![What If: policy does not apply to Jordan](Screenshots/02-whatif-jordan-not-applied.png)
+![What If: break-glass account excluded](Screenshots/03-whatif-breakglass-excluded.png)
 
 ---
 
@@ -69,8 +69,8 @@ Jordan is an Auditor with permanent **Reader** access. Occasionally he needs to 
 | Jordan activates Contributor in PIM (with justification) | ✅ Activated, time-limited |
 | Jordan signs out/in, then creates the NSG | ✅ Succeeds |
 
-![Jordan denied before PIM activation](screenshots/04-jordan-denied-before-pim.png)
-![Jordan creates NSG after PIM activation](screenshots/05-jordan-nsg-after-pim.png)
+![Jordan denied before PIM activation](Screenshots/04-jordan-denied-before-pim.png)
+![Jordan creates NSG after PIM activation](Screenshots/05-jordan-nsg-after-pim.png)
 
 ### Bonus: PIM for my own admin account
 `labadmin` is a Global Administrator, but that's an **Entra** role. It had no **Azure** permissions on the subscription. Instead of giving it permanent access, I made it **eligible** for **User Access Administrator** with a **condition**: it can assign any role *except* privileged ones (Owner, User Access Administrator, RBAC Administrator). It has to activate that role, with a reason, before managing role assignments.
