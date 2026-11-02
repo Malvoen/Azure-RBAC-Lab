@@ -7,6 +7,7 @@ A hands-on lab simulating a small company where an **Ops team** can build resour
 - **[Lab 2: Conditional Access MFA + Privileged Identity Management](Project2/)**
 - **[Lab 3: SAML Single Sign-On](Project3/)**
 - **[Lab 4: Static Website on Azure Storage](Project4/)**
+- **[Lab 5: CI/CD with GitHub Actions + OIDC](Project5/)**
 
 ## What I built
 
